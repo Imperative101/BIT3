@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title> CSS Grids</title>
+<style>
+
+/*.gridcontent {
+  width: 8.33%;
+  margin: 0;
+  border-right: 1px solid grey;
+  height: 200%;
+  float: left;
+}
+*/
+
+.wrapper {
+  
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+    background-COLOR: RED ;
+    }
+
+
+    .item1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class='wrapper'>
+    <div class='item1'>Item 1</div>
+    <div class='item2'>Item 2</div>
+    <div class='item3'>Item 3</div>
+    <div class='item4'>Item 4</div>
+    <div class='item5'>Item 5</div>
+    <div class='item6'>Item 6</div>
+
+</div>
+
+
+</body>
+</html>
