@@ -65,6 +65,7 @@ flex-container {
     background-color: blue;
 }
 
+
 /* for mobile - 2 options */
 @media all and (max-width: 720px) {
 .flex-container {
@@ -83,3 +84,5 @@ flex-flow: column wrap;
 }
 
 }
+
+
